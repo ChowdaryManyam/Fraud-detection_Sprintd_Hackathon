@@ -1,0 +1,40 @@
+# Python environments
+.venv/
+.venv-*/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa
+id_ed25519
+
+# Large datasets and audio
+data/
+*.wav
+*.mp3
+*.flac
+
+# Local evaluation artifacts
+stt_evaluation/no_conditioning_batch/
+stt_evaluation/*.json
+stt_evaluation/*.csv
+stt_evaluation/*.txt
+
+# Generated intermediate files
+parsed_dialogues/
+transcripts/
+segment_index.csv
+wer_report.json
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
